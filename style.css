@@ -144,6 +144,7 @@ header ul li:hover{
         display: flex;
     }
     .parallex{
+        font-size: 10px !important;
         padding: 150px 20px;
     }
     .exp, .break, .projects{
