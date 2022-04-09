@@ -143,6 +143,9 @@ header ul li:hover{
     header{
         display: flex;
     }
+    .parallex{
+        padding: 150px 20px;
+    }
     .exp, .break, .projects{
         padding: 20px !important;
     }
