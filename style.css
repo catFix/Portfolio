@@ -160,7 +160,7 @@ header ul li:hover{
         padding: 20px !important;
         width: 100% !important;
     }
-    .footer{
+    .footer, .info{
         padding: 20px !important;
     }
     .footer .line{
