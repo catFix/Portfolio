@@ -143,6 +143,25 @@ header ul li:hover{
     header{
         display: flex;
     }
+    .exp, .break, .projects{
+        padding: 20px !important;
+    }
+    .abilities{
+        padding-left: 10px !important;
+    }
+    .abilities h2{
+        text-align: right !important;
+    }
+    .projects .pp{
+        padding: 20px !important;
+        width: 100% !important;
+    }
+    .footer{
+        padding: 20px !important;
+    }
+    .footer .line{
+        display: none;
+    }
 }
 .info{
     background-color: rgb(16, 16, 82);
