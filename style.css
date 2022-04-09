@@ -163,7 +163,7 @@ header ul li:hover{
         padding: 20px !important;
     }
     .footer .line{
-        display: none;
+        display: none !important;
     }
 }
 .info{
