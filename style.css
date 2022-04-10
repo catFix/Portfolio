@@ -166,6 +166,9 @@ header ul li:hover{
     .footer .line{
         display: none !important;
     }
+    .break2{
+        display: none;
+    }
 }
 .info{
     background-color: rgb(16, 16, 82);
