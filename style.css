@@ -150,10 +150,10 @@ header ul li:hover{
     .exp, .break, .projects{
         padding: 20px !important;
     }
-    .abilities{
+    /*.abilities{
         padding-left: 10px !important;
     }
-    /*.abilities h2{
+    .abilities h2{
         text-align: center !important;
     }*/
     .projects .pp{
@@ -212,14 +212,14 @@ table{
 .abilities{
     background-color: rgb(11, 11, 43);
     text-align: center;
-    padding: 20px 80px; /*Content Position*/
+    padding: 20px 0px; /*Content Position*/
     color: azure;
 }
 .abilities .ab{
     margin: auto;
     width: 60%;
     border: 0px solid;
-    padding: 10px 15px;
+    padding: 0px 1px;
 }
 .abilities p{
     margin: auto;
