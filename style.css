@@ -217,7 +217,7 @@ table{
 }
 .abilities .ab{
     margin: auto;
-    width: 60%;
+    width: 40%;
     border: 0px solid;
     padding: 0px 1px;
 }
@@ -239,14 +239,14 @@ table{
 .break{
     background-color: rgb(11, 11, 43);
     text-align: center;
-    padding: 20px 80px; /*Content Position*/
+    padding: 20px 10px; /*Content Position*/
     color: azure;
 }
 .break table{
     background-color: rgb(11, 11, 43);
     text-align: center;
     margin: auto;
-    width: 60%;
+    width: 40%;
     padding: 10px 15px;
     border-bottom: 1px solid azure;
     opacity: 0.5;
