@@ -133,21 +133,19 @@ header ul li:hover{
     width: 100%;
     min-width: 160px;
 }
-@media (max-width:320px){
-    /* smartphones, portrait iPhone,
-     portrait 480x320 phones (Android) */ 
+@media only screen and (max-width: 600px){
     .nav{
         display: none;
+    }
+    .parallex{
+        background-attachment: scroll;
+        width: 100% !important;
     }
     .dropdown{
         display: block;
     }
     header{
         display: flex;
-    }
-    .parallex{
-        /*font-size: 10px !important;*/
-        padding: 150px 20px;
     }
     .exp, .break, .projects{
         padding: 20px !important;
