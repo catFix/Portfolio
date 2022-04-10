@@ -284,3 +284,12 @@ li{
     font-family: 'Courier New', Courier, monospace;
     color: azure;
 }
+.break2{
+    background-color: rgb(17, 17, 114);
+    text-align: center;
+    margin: auto;
+    padding: 5px 100px; /*Content Position*/
+    width: 50px;
+    color: azure;
+    border-top: 1px solid azure;
+}
