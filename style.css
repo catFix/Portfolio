@@ -164,6 +164,9 @@ header ul li:hover{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
+.exp td{
+    font-family: 'Courier New', Courier, monospace;
+}
 /*table content text style*/
 table{
     width: 100%;
