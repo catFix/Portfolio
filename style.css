@@ -190,7 +190,7 @@ table{
 }
 .abilities .ab tr:hover{background-color: slategrey;}
 .abilities .ab td{
-    text-align: justify;
+    text-align: left;
     font-family: 'Courier New', Courier, monospace;
 }
 .abilities .ab .score{
