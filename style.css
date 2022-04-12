@@ -133,43 +133,6 @@ header ul li:hover{
     width: 100%;
     min-width: 160px;
 }
-@media only screen and (max-width: 600px){
-    .nav{
-        display: none;
-    }
-    .parallex{
-        background-attachment: scroll;
-        width: 100% !important;
-    }
-    .dropdown{
-        display: block;
-    }
-    header{
-        display: flex;
-    }
-    .exp, .break, .projects{
-        padding: 20px !important;
-    }
-    /*.abilities{
-        padding-left: 10px !important;
-    }
-    .abilities h2{
-        text-align: center !important;
-    }*/
-    .projects .pp{
-        padding: 20px !important;
-        width: 100% !important;
-    }
-    .footer, .info{
-        padding: 20px !important;
-    }
-    .footer .line{
-        display: none !important;
-    }
-    .break2{
-        display: none;
-    }
-}
 .info{
     background-color: rgb(16, 16, 82);
     font-family: 'Courier New', Courier, monospace;
@@ -199,15 +162,6 @@ header ul li:hover{
     font-weight: bold;
 }
 /*table content text style*/
-.exp table, td{
-    text-align: justify;
-    font-family: 'Courier New', Courier, monospace;
-}
-table, th, td{
-    /*text-align: justify;*/
-    width: 50%;
-    border: 0px solid;
-}
 table{
     width: 100%;
     border-collapse: collapse;
@@ -293,4 +247,78 @@ li{
     width: 50px;
     color: azure;
     border-top: 1px solid azure;
+}
+.table-row .table-cell-1 {
+    text-align: justify;
+    width: 50%;
+}
+.table-cell {
+    display: table-cell;
+    text-align: justify;
+}
+.table-cell b{
+    display: table-cell;
+    text-align: left;
+}
+.table-row a{
+    font-family: 'Courier New', Courier, monospace;
+}
+.table-cell-1 {
+    display: table-cell;
+}
+.expBreak{
+    width: 90%;
+    margin: auto;
+    border-bottom:2px solid rgb(151, 209, 209);
+    opacity: 0.5;
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    .nav{
+        display: none;
+    }
+    .parallex{
+        background-attachment: scroll;
+        width: 100% !important;
+    }
+    .dropdown{
+        display: block;
+    }
+    header{
+        display: flex;
+    }
+    .exp, .break, .projects{
+        padding: 20px !important;
+    }
+    /*.abilities h2{
+        text-align: center !important;
+    }*/
+    .projects .pp{
+        padding: 20px !important;
+        width: 100% !important;
+    }
+    .footer, .info{
+        padding: 20px !important;
+    }
+    .break2{
+        display: none;
+    }
+    .table,
+    .table-row,
+    .table-cell,
+    .table-cell-1 {
+      display: block;
+    }
+    .table-row .table-cell-1{
+        width: 100%;
+    }
+    .expBreak{
+        display: block;
+    }
+}
+  
+.table-cell, .table-cell-1 {
+    
+    /*border: 1px solid #000;*/
+    padding: 5px;
 }
