@@ -44,7 +44,10 @@ header ul{
     justify-content: space-around;
 }
 header ul a{
-    color: azure;
+    color: azure;padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 170px;
+    /*nav mobile butt*/
 }
 header ul li{
     list-style: none;
